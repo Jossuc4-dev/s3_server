@@ -1,0 +1,20 @@
+node_modules
+# Keep environment variables out of version control
+.env
+
+/src/generated/prisma
+/src/prisma.config.ts
+manual-curl.txt
+README.Docker.md
+compose.yaml
+Dockerfile
+.dockerignore
+prisma/migrations
+api-test-curl.bash
+test.txt
+node_modules/
+dist/
+uploads/
+.env
+*.log
+.DS_Store
